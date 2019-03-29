@@ -161,9 +161,9 @@ p {
   margin: 0 auto;
 }
 .fixed-nav-bar {
+  width: 100%;
   background: #F6F6F6;
   height: 100px;
-  width: 100%;
   border-bottom: 1px solid #F1F1F1;
   padding: 15px 0 15px;
 }
@@ -236,6 +236,18 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #22283A;
+  color: #ffffff;
+  font-size: 1.8rem;
+  max-width: 100px;
+  height: 35px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 .home .walk .walk-img {
   width: 46%;
