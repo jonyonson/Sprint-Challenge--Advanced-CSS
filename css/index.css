@@ -165,14 +165,14 @@ p {
   background: #F6F6F6;
   height: 100px;
   border-bottom: 1px solid #F1F1F1;
-  padding: 15px 0 15px;
+  padding: 13px 0 15px;
 }
 .fixed-nav-bar h1 {
   font-size: 40px;
   text-align: center;
 }
 .fixed-nav-bar .fixed-nav-bar__nav {
-  margin-top: 20px;
+  margin-top: 19px;
   display: flex;
   justify-content: center;
 }
@@ -180,7 +180,7 @@ p {
   text-decoration: none;
   color: #454A59;
   font-size: 1.6rem;
-  margin: 0 15px;
+  margin: 0 16px;
 }
 footer {
   color: #22283B;
