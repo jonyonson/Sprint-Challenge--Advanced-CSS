@@ -137,6 +137,9 @@ body {
   font-family: 'Ubuntu', sans-serif;
   color: #5E6164;
 }
+body {
+  padding-top: 100px;
+}
 h1,
 h2,
 h3,
@@ -161,9 +164,13 @@ p {
   margin: 0 auto;
 }
 .fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
   width: 100%;
-  background: #F6F6F6;
   height: 100px;
+  background: rgba(246, 246, 246, 0.96);
   border-bottom: 1px solid #F1F1F1;
   padding: 13px 0 15px;
 }
