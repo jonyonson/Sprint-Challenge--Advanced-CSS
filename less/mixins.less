@@ -1,1 +1,32 @@
 // Mixins Here
+
+
+.fullwidth() {
+  width: 100%;
+}
+
+.button(@bgcolor, @color, @maxwidth) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: @bgcolor;
+  border: 1px solid @bgcolor;
+  color: @color;
+  font-size: 1.8rem;
+  max-width: @maxwidth;
+  height: 35px;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: @color;
+    color: @bgcolor;
+    border: 1px solid @bgcolor;
+  }
+
+  @media @phone {
+    max-width: 100%;
+    // border-radius: 0;
+    height: 70px;
+  }
+}
